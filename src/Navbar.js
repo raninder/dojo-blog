@@ -1,6 +1,6 @@
 
 // type sfc and press enter key, simple react snippet will generate functional component template
-//sfc is stateless funational component
+//sfc is stateless functional component
 const  Navbar = () => {
 	return ( 
 		// type nav.navbar and press enter
