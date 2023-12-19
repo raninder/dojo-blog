@@ -21,7 +21,7 @@ const Home4 = () => {
 		console.log("useEffect run");
 		//  console.log(blogs);
 		}, [name])
-	
+	// useEffect(()=> console.log(blogs))
 	return ( 
 			<div className="home">
 				

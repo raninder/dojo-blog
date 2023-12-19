@@ -1,7 +1,7 @@
 
 import {useState} from 'react';
 import BlogList from './BlogList';
-
+import BlogList1 from './BlogList1';
 const Home2 = () => {
 	
 	const [blogs, setBlogs] = useState([
@@ -19,11 +19,10 @@ const Home2 = () => {
         </div>
       ))} */}
 			{/* we can pass a string too in addition to js data with props e.g. title here */}
-			<BlogList blogs={blogs} title="All Blogs"/>
-			<BlogList blogs={blogs.filter((blog)=>blog.author==='mario')} title="Mario Blogs"/>	
+			<BlogList1 blogs={blogs} title="All Blogs"/>
+			<BlogList1 blogs={blogs.filter((blog)=>blog.author==='mario')} title="Mario Blogs"/>	
     </div>	
 	 );
 }
 
- 
 export default Home2;
