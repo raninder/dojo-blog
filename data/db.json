@@ -23,6 +23,18 @@
       "body": "test2 test2",
       "author": "mario",
       "id": 4
+    },
+    {
+      "title": "Hello Ninjas",
+      "body": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+      "author": "mario",
+      "id": 5
+    },
+    {
+      "title": "Test3",
+      "body": "Test3 Test3 test3",
+      "author": "mario",
+      "id": 6
     }
   ]
 }
