@@ -7,7 +7,8 @@ import Navbar from './Navbar';
 import Create4 from './Create4';
 //using routes instead of Switch in react-rouer-dom ver6
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import BlogDetails1 from './BlogDetails1';
+// import BlogDetails1 from './BlogDetails1';
+import BlogDetails2 from './BlogDetails2';
 import Home9 from './Home9';
 
 
@@ -21,7 +22,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Home9 />} />
           <Route path="/create" element={<Create4 />} />
-          <Route path="/blogs/:id" element={<BlogDetails1 />} />
+          <Route path="/blogs/:id" element={<BlogDetails2 />} />
             </Routes>
         
         </div>
