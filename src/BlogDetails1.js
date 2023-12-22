@@ -1,7 +1,7 @@
 import { useParams } from "react-router";
 import useFetch from "./useFetch";
 
-const BlogDetails = () => {
+const BlogDetails1 = () => {
 	const {id} = useParams(); 
 	// data: blog means blog term can be used instead of data
 	const {data:blog,error,isPending} = useFetch('http://localhost:8000/blogs/'+id);
@@ -20,4 +20,4 @@ const BlogDetails = () => {
 	 );
 }
  
-export default BlogDetails;
+export default BlogDetails1;
