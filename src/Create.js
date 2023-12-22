@@ -1,3 +1,4 @@
+// Lecture 26 Reusing hooks
 const Create = () => {
 	return ( 
 		<div className="create">
