@@ -10,6 +10,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 // import BlogDetails1 from './BlogDetails1';
 import BlogDetails2 from './BlogDetails2';
 import Home9 from './Home9';
+import  NotFound  from './NotFound';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
           <Route path="/" element={<Home9 />} />
           <Route path="/create" element={<Create4 />} />
           <Route path="/blogs/:id" element={<BlogDetails2 />} />
+          {/* optional if page doesnt exist */}
+          <Route path="*" element={<NotFound />} />
             </Routes>
         
         </div>
